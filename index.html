@@ -20,12 +20,12 @@
   
   <body>
     <section class="content-wrapper">
-    <h1>The importance of Responsive Web Design</h1>
+    <h1>The Importance of Responsive Web Design</h1>
     <p>The problems that responsive web design solves is the interaction a user has with our web page. For more information, please fill out the form below.</p>
     
     <form method="GET">
       <label>First Name:
-        <input type="text" name="last-name">
+        <input type="text" name="first-name" required>
       </label>
       
       <label>Last Name:
@@ -34,7 +34,7 @@
       
       <br>
       <label>Email Address:
-        <input type="text" name="last-name">
+        <input type="text" name="email-address">
       </label>
       
       <br>
@@ -46,7 +46,7 @@
       <br>
       
       <label>Best way to contact you?
-        <select name="contact">
+        <select name="contact" required>
           <option value="">Please select</option>
           <option value="email">Email</option>
           <option value="phone">Phone</option>
@@ -59,8 +59,15 @@
       
       <label>If other, please specify in the space below:
         <br>
-        <textarea name="outdoor" cols="50" rows="5">
-        
+        <textarea name="specify" cols="50" rows="1">
+        </textarea>
+      </label>
+      
+      <br>
+      
+      <label>What are you trying to acheive through a reponsive web?
+        <br>
+        <textarea name="achieve" cols="50" rows="5">
         </textarea>
       </label>
       
