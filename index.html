@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <title>Adoption Application</title>
+  </head>
+  
+  <body>
+    <h1>Apply to Adopt a Pet</h1>
+    
+    <form method="GET">
+      <label>Last Name:
+        <input type="text" name="last-name">
+      </label>
+      
+      <br>
+      
+      <label>Birthday:
+        <input type="date" name="birth-date">
+      </label>
+      
+      <br>
+      
+      <label>Type of animal to adopt
+        <select name="animal">
+          <option value="">Please select</option>
+          <option value="turtle">Turtle</option>
+          <option value="python">Python</option>
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+        </select>
+      </label>
+      
+      <br>
+      
+      <label>How much outdoor space will your pet have to play in?
+        <textarea name="outdoor" cols="100" rows="10">The text that you see here is a value not a placeholder.</textarea>
+      </label>
+      
+      <br>
+      
+      <fieldset>
+        <legend>
+          Do you have other pets at home already?
+        </legend>
+        <label>Yes
+          <input type="radio" name="other-pets" value="yes">
+        </label>
+
+        <label>No
+          <input type="radio" name="other-pets" value="no">
+        </label>
+      </fieldset>
+      
+      <fieldset>
+        <legend>
+          What color animal do you want?
+        </legend>
+        
+        <label>Brown
+          <input type="checkbox" name="color" value="brown">
+        </label>
+        
+        <label>Green
+          <input type="checkbox" name="color" value="green">
+        </label>
+      </fieldset>
+      
+      <br>
+      
+      <input type="submit" value="Apply Now!">
+    </form>
+    
+  </body>
+  
+</html>
